@@ -391,7 +391,7 @@ class RestaurantApp(MDApp):
     all_products = []
     current_table = None
     current_seat = 0
-    server_ip = '192.168.1.100'
+    server_ip = '192.168.10.100'
     current_user_name = 'ADMIN'
     refresh_event = None
     REFRESH_RATE = 5
@@ -1165,3 +1165,4 @@ class RestaurantApp(MDApp):
 
 if __name__ == '__main__':
     RestaurantApp().run()
+
